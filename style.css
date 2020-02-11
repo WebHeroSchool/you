@@ -7,31 +7,31 @@
 
 @media (min-width:481px) {
   .body {
-    font-size: 23px;
+    font-size: 21px;
   }
 }
 
 @media (min-width:641px) {
   .body {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 
 @media (min-width:961px) {
   .body {
-    font-size: 42px;
+    font-size: 39px;
   }
 }
 
 @media (min-width:1025px){
   .body {
-    font-size: 49px;
+    font-size: 42px;
   }
 }
 
 @media (min-width:1281px) {
   .body {
-    font-size: 58px;
+    font-size: 49px;
   }
 }
 .rightimg {
