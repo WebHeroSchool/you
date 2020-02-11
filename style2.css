@@ -44,7 +44,7 @@
   color: black;
   font-family: Arial;
   font-size: 14px;
-  line-height:30px;
+  line-height: 30px;
   padding: 0 7px;
   text-transform: uppercase;
   text-decoration: none;
@@ -108,8 +108,32 @@
 
 .menu.menu_state_open .menu__links {
     display: block;  
-    }
+   }
  
+ @media screen and (max-width: 999px) {
+  .menu__icon{
+    display: inline-block;
+  }
+  
+  .menu__links {
+    position: fixed;
+    display: block;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    background-color: olivedrab(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: auto;
+  }
+  
+  .menu__links-item {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+  }
+}
 .rightimg {
   width: 500px;
   height: 400px;
