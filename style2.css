@@ -129,10 +129,9 @@
   }
   
   .menu__links-item {
-    display: block;
+    display: none;
     padding: 10px 0;
     text-align: center;
-    color: #ffffff;
   }
 }
 .rightimg {
